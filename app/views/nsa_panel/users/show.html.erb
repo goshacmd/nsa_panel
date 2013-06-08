@@ -1,0 +1,29 @@
+<h1><%= @user.name %> <small>#<%= @user.id %></small></h1>
+
+<h2>Attributes</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Key</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @user.attributes.each do |key, value| %>
+      <tr>
+        <td><%= key.capitalize %></td>
+        <td><%= value %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<h2>Related data</h2>
+
+<ul>
+  <% NsaPanel.associated_models.each do |association| %>
+    <li><%= link_to association.name.capitalize, user_data_path(@user, name: association.name) %></li>
+  <% end %>
+</ul>
