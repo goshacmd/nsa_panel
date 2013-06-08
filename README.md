@@ -93,4 +93,6 @@ Easy, eh?
 
 ## License
 
+NSA Eagle Logo credit [EFF](https://www.eff.org/pages/eff-nsa-graphics).
+
 [MIT](MIT-LICENSE).
