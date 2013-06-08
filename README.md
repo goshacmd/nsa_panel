@@ -1,8 +1,6 @@
 # NSA Panel
 
-<p align="center">
-  ![](nsa-eagle.png)
-</p>
+![](nsa-eagle.png)
 
 The easiest way to add a special panel for NSA agents to monitor your
 users' data. Let's destroy the right to privacy together!
