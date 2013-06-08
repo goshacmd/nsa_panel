@@ -9,7 +9,7 @@ module NsaPanel
       return render nothing: true unless @association
 
       @klass = @association.klass
-      @records = @klass.all
+      @records = @user.send(@association.name).to_a
     end
 
     def show
@@ -19,7 +19,7 @@ module NsaPanel
       return render nothing: true unless @association
 
       @klass = @association.klass
-      @record = @klass.find(params[:id])
+      @record = @user.send(@association.name).find(params[:id])
     end
   end
 end
