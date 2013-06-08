@@ -81,6 +81,16 @@ NsaPanel.passowrd = 'nsa' ENV['NSA_PASSWORD']
 
 Easy, eh?
 
+## What it looks like
+
+![Dashboard](1-dashboard.png)
+
+![User details](2-user-details.png)
+
+![User's secrets](3-users-secrets.png)
+
+![User's secret](4-users-secret.png)
+
 ## License
 
 [MIT](MIT-LICENSE).
