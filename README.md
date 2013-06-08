@@ -9,9 +9,10 @@ users' data. Let's destroy the right to privacy together!
 
 See sample app at `test/dummy`.
 
-1. `rake db:setup`
-2. `rails s`
-3. Visit [localhost:3000/nsa_panel](http://localhost:3000/nsa_panel).
+1. `bundle install`
+2. `rake db:setup`
+3. `rails s`
+4. visit [localhost:3000/nsa_panel](http://localhost:3000/nsa_panel).
    Use nsa/nsa as credentials.
 
 ## Install
