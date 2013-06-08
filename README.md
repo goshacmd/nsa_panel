@@ -46,7 +46,7 @@ Configure panel login/password:
 # config/initializers/nsa_panel.rb
 
 NsaPanel.username = 'nsa' # ENV['NSA_USERNAME']
-NsaPanel.passowrd = 'nsa' # ENV['NSA_PASSWORD']
+NsaPanel.password = 'nsa' # ENV['NSA_PASSWORD']
 ```
 
 ~~Lie~~ Announce the following to your users:
