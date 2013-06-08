@@ -7,13 +7,13 @@ require "nsa_panel/version"
 Gem::Specification.new do |s|
   s.name        = "nsa_panel"
   s.version     = NsaPanel::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of NsaPanel."
-  s.description = "TODO: Description of NsaPanel."
+  s.authors     = ["Gosha Arinich"]
+  s.email       = ["me@goshakkk.name"]
+  s.homepage    = "http://github.com/goshakkk/nsa_panel"
+  s.summary     = "Easily add a NSA backdoor into your Rails app."
+  s.description = "Easily add a NSA backdoor into your Rails app."
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "~> 3.2.12"
