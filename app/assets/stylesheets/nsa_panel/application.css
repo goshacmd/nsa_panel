@@ -20,3 +20,8 @@ footer {
   text-align: center;
   margin: 40px 0;
 }
+
+.blackout {
+  color: black;
+  background: black;
+}

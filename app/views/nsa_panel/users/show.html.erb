@@ -14,7 +14,7 @@
     <% @user.attributes.each do |key, value| %>
       <tr>
         <td><%= key.capitalize %></td>
-        <td><%= value %></td>
+        <td><%= blackout value, key %></td>
       </tr>
     <% end %>
   </tbody>
