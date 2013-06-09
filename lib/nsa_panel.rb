@@ -10,4 +10,8 @@ module NsaPanel
   def self.associated_models
     user.reflect_on_all_associations
   end
+
+  def self.association(name)
+    user.reflect_on_association(name.to_sym)
+  end
 end

@@ -4,21 +4,19 @@ module NsaPanel
   class DataController < ApplicationController
     def index
       @user = NsaPanel.user.find(params[:user_id])
-      @association = @user.class.reflect_on_association(params[:name].to_sym)
+      @association = NsaPanel.association(params[:name])
 
       return render nothing: true unless @association
 
-      @klass = @association.klass
       @records = @user.send(@association.name).to_a
     end
 
     def show
       @user = NsaPanel.user.find(params[:user_id])
-      @association = @user.class.reflect_on_association(params[:name].to_sym)
+      @association = NsaPanel.association(params[:name])
 
       return render nothing: true unless @association
 
-      @klass = @association.klass
       @record = @user.send(@association.name).find(params[:id])
     end
   end
