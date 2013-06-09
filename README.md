@@ -102,6 +102,10 @@ Easy, eh?
 
 ![User's secret](4-users-secret.png)
 
+## Similar projects
+
+* [flask-nsa](https://github.com/plausibility/flask-nsa) by @plausibility.
+
 ## License
 
 [MIT](MIT-LICENSE).
