@@ -5,6 +5,14 @@
 The easiest way to add a special panel for NSA agents to monitor your
 users' data. Let's ~~destroy the right to privacy~~ fight terrorism together!
 
+Why?
+
+Well, the government wants to protect you and your users from those
+crazy guys that blow up everything. Everyone wants to be safe. No liberty
+should be superior to the safety and every government is good!
+
+Besides, you and your users really have got **nothing to hide**, haven't you?
+
 ## Example
 
 See sample app at `test/dummy`.
