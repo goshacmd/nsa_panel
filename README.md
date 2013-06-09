@@ -92,6 +92,8 @@ Easy, eh?
 
 ## What it looks like
 
+![Confirm they have a warrant](0-confirm-warrant.png)
+
 ![Dashboard](1-dashboard.png)
 
 ![User details](2-user-details.png)
