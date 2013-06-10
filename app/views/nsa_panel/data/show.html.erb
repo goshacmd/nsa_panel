@@ -1,3 +1,7 @@
-<h1><%= @user.name %>'s <%= @association.name.to_s.singularize %> #<%= @record.id %></h1>
+<h1>
+  <%= link_to @user.name, user_path(@user) %>'s
+  <%= link_to @association.name.to_s.singularize, user_data_path(@user, name: @association.name) %>
+  #<%= @record.id %>
+</h1>
 
 <%= image_tag 'nsa_panel/fuck_you.jpg' %>

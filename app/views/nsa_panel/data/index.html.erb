@@ -1,4 +1,7 @@
-<h1><%= @user.name %>'s <%= @association.name %></h1>
+<h1>
+  <%= link_to @user.name, user_path(@user) %>'s
+  <%= @association.name %>
+</h1>
 
 <table class="table">
   <thead>
