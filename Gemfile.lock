@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    nsa_panel (0.0.5)
+    nsa_panel (0.0.6)
       rails (~> 3.2.12)
 
 GEM
