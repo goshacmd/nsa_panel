@@ -1,4 +1,9 @@
-<h1><%= @user.name %> <small>#<%= @user.id %></small></h1>
+<h1>
+  <%= @user.name %>
+  <small>#<%= @user.id %></small>
+</h1>
+
+<%= link_to 'Strike with drone', order_drone_strike_user_path(@user), method: :post, class: 'btn btn-small btn-warning' %>
 
 <h2>Attributes</h2>
 

@@ -14,7 +14,12 @@
       <tr>
         <td><%= user.id %></td>
         <td><%= user.name %></th>
-        <td><%= link_to 'I think they are a terrorist', user_path(user), class: 'btn btn-primary' %></td>
+        <td>
+          <div class="btn-group">
+            <%= link_to 'I think they are a terrorist', user_path(user), class: 'btn btn-primary' %>
+            <%= link_to 'Strike with drone', order_drone_strike_user_path(user), method: :post, class: 'btn btn-warning' %>
+          </div>
+        </td>
       </tr>
     <% end %>
   </tbody>

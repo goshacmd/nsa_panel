@@ -1,5 +1,7 @@
 NsaPanel::Engine.routes.draw do
   resources :users do
+    post :order_drone_strike, on: :member
+
     resources :data
   end
 
