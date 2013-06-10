@@ -5,7 +5,7 @@ module NsaPanel
     private
 
     def authenticate
-      authenticate_or_request_with_http_basic do |username, password|
+      authenticate_or_request_with_http_basic("NSA Indirect Access Panel") do |username, password|
         NsaPanel.username == username && NsaPanel.password == password
       end
     end
