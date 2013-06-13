@@ -105,6 +105,7 @@ Easy, eh?
 ## Similar projects
 
 * [flask-nsa](https://github.com/plausibility/flask-nsa) by @plausibility.
+* [django_nsa](https://github.com/lvm/django_nsa) by @lvm.
 
 ## License
 
